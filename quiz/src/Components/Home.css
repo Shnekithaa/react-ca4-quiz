@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-container{
+    background-image: url('../Resources/quiz-bg-1.avif');
+    height: 100vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.home-heading{
+    font-size: 200px;
+    font-family: 'Italianno', cursive;
+}
+.home-button{
+    background-color: #0065FA;
+    border-radius: 33px;
+    border-width: 0;
+    color: white;
+    padding: 15px 50px;
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Inria Serif';
+}
